@@ -161,7 +161,8 @@
     }
     
     .middle>.Images>.image1 {
-        border: 3px solid black;
+        border: 5px solid white;
+        background-color: #04003F;
         width: 250px;
         height: 450px;
         border-radius: 25px;
@@ -177,7 +178,7 @@
     }
     
     .middle>.Images>.image1>.img1text {
-        color: black;
+        color: white;
         font-family: 'Times New Roman', Times, serif;
         justify-content: inherit;
     }
@@ -196,7 +197,8 @@
     }
     
     .middle>.Images>.image2 {
-        border: 3px solid black;
+        border: 5px solid white;
+        background-color: #04003F;
         width: 250px;
         height: 450px;
         border-radius: 25px;
@@ -212,7 +214,7 @@
     }
     
     .middle>.Images>.image2>.img2text {
-        color: black;
+        color: white;
         font-family: 'Times New Roman', Times, serif;
         align-items: center;
     }
@@ -231,7 +233,8 @@
     }
     
     .middle>.Images>.image3 {
-        border: 3px solid black;
+        border: 5px solid white;
+        background-color: #04003F;
         width: 250px;
         height: 450px;
         border-radius: 25px;
@@ -247,7 +250,7 @@
     }
     
     .middle>.Images>.image3>.img3text {
-        color: black;
+        color: white;
         font-family: 'Times New Roman', Times, serif;
     }
     
