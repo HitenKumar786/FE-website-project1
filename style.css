@@ -143,7 +143,7 @@
         display: flex;
         background-color: #E5F0F1;
         margin-top: 380px;
-        height: 500px;
+        height: 570px;
         width: auto;
         margin-left: -7px;
         flex-wrap: wrap;
@@ -163,7 +163,7 @@
     .middle>.Images>.image1 {
         border: 3px solid black;
         width: 250px;
-        height: 400px;
+        height: 450px;
         border-radius: 25px;
         padding: 2px;
     }
@@ -183,7 +183,7 @@
     }
     
     .middle>.Images>.image1>.img1text>.img1link {
-        margin-top: -13px;
+        margin-top: 20px;
         margin-left: 50px;
     }
     
@@ -198,7 +198,7 @@
     .middle>.Images>.image2 {
         border: 3px solid black;
         width: 250px;
-        height: 400px;
+        height: 450px;
         border-radius: 25px;
         padding: 2px;
     }
@@ -218,7 +218,7 @@
     }
     
     .middle>.Images>.image2>.img2text>.img2link {
-        margin-top: -13px;
+        margin-top: 20px;
         margin-left: 50px;
     }
     
@@ -233,7 +233,7 @@
     .middle>.Images>.image3 {
         border: 3px solid black;
         width: 250px;
-        height: 400px;
+        height: 450px;
         border-radius: 25px;
         padding: 2px;
     }
@@ -252,7 +252,7 @@
     }
     
     .middle>.Images>.image3>.img3text>.img3link {
-        margin-top: -13px;
+        margin-top: 20px;
         margin-left: 50px;
     }
     
