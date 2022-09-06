@@ -91,10 +91,14 @@
         display: flex;
         flex-wrap: wrap;
         background-color: #00DC82;
-        height: 35px;
+        height: 40px;
         width: 105px;
-        border-radius: 8px;
         border-color: #00DC82;
+        border: 5px solid rgb(230, 230, 141);
+        border-radius: 25px;
+        outline: none;
+        border: color: yellow;
+        box-shadow: 0 0 10px #9ecaed;
     }
     
     .button>button>.btext {
@@ -161,12 +165,16 @@
     }
     
     .middle>.Images>.image1 {
-        border: 5px solid white;
+        border: 5px solid rgb(230, 230, 141);
+        border-radius: 7px;
         background-color: #04003F;
         width: 250px;
         height: 450px;
         border-radius: 25px;
         padding: 2px;
+        outline: none;
+        border: color #195e96;
+        box-shadow: 0 0 200px #9ecaed;
     }
     
     .middle>.Images>.image1:hover {
@@ -197,12 +205,16 @@
     }
     
     .middle>.Images>.image2 {
-        border: 5px solid white;
+        border: 5px solid rgb(230, 230, 141);
+        border-radius: 7px;
         background-color: #04003F;
         width: 250px;
         height: 450px;
         border-radius: 25px;
         padding: 2px;
+        outline: none;
+        border: color #195e96;
+        box-shadow: 0 0 200px #9ecaed;
     }
     
     .middle>.Images>.image2:hover {
@@ -233,12 +245,27 @@
     }
     
     .middle>.Images>.image3 {
-        border: 5px solid white;
+        border: 5px solid rgb(230, 230, 141);
+        border-radius: 7px;
         background-color: #04003F;
         width: 250px;
         height: 450px;
         border-radius: 25px;
         padding: 2px;
+        outline: none;
+        border: color #195e96;
+        box-shadow: 0 0 200px #9ecaed;
+    }
+    
+    .middle>.Images>.image3-border {
+        border: 2px solid #dadada;
+        border-radius: 7px;
+    }
+    
+    .middle>.Images>.image3:focus {
+        outline: none;
+        border: color #9ecaed;
+        box-shadow: 0 0 10px #9ecaed;
     }
     
     .middle>.Images>.image3:hover {
