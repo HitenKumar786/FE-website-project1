@@ -158,18 +158,18 @@
         transform: scale(1.1);
     }
     
-    .middle {
+    .middle1 {
         display: flex;
         background-color: #E5F0F1;
         margin-top: 380px;
-        height: 1000px;
+        height: 100px;
         width: auto;
         margin-left: -7px;
         flex-wrap: wrap;
         
     }
     
-    .middle>.Images {
+    .middle1>.Images {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -181,7 +181,7 @@
         
     }
     
-    .middle>.Images>.image1 {
+    .middle1>.Images>.image1 {
         border: 5px solid rgb(230, 230, 141);
         border-radius: 7px;
         background-color: #04003F;
@@ -194,7 +194,7 @@
         box-shadow: 0 0 200px #9ecaed;
     }
     
-    .middle>.Images>.image1:hover {
+    .middle1>.Images>.image1:hover {
         -ms-transform: scale(1.1);
         /* IE 9 */
         -webkit-transform: scale(1.1);
@@ -202,13 +202,13 @@
         transform: scale(1.1);
     }
     
-    .middle>.Images>.image1>.img1text {
+    .middle1>.Images>.image1>.img1text {
         color: white;
         font-family: 'Times New Roman', Times, serif;
         justify-content: inherit;
     }
     
-    .middle>.Images>.image1>.img1text>.img1link {
+    .middle1>.Images>.image1>.img1text>.img1link {
         margin-top: 20px;
         margin-left: 50px;
         
@@ -222,7 +222,7 @@
         transform: scale(1.2);
     }
     
-    .middle>.Images>.image2 {
+    .middle1>.Images>.image2 {
         border: 5px solid rgb(230, 230, 141);
         border-radius: 7px;
         background-color: #04003F;
@@ -235,7 +235,7 @@
         box-shadow: 0 0 200px #9ecaed;
     }
     
-    .middle>.Images>.image2:hover {
+    .middle1>.Images>.image2:hover {
         -ms-transform: scale(1.1);
         /* IE 9 */
         -webkit-transform: scale(1.1);
@@ -243,18 +243,18 @@
         transform: scale(1.1);
     }
     
-    .middle>.Images>.image2>.img2text {
+    .middle1>.Images>.image2>.img2text {
         color: white;
         font-family: 'Times New Roman', Times, serif;
         align-items: center;
     }
     
-    .middle>.Images>.image2>.img2text>.img2link {
+    .middle1>.Images>.image2>.img2text>.img2link {
         margin-top: 20px;
         margin-left: 50px;
     }
     
-    .middle>.Images>.image2>.img2text>.img2link:hover {
+    .middle1>.Images>.image2>.img2text>.img2link:hover {
         -ms-transform: scale(1.2);
         /* IE 9 */
         -webkit-transform: scale(1.2);
@@ -262,7 +262,7 @@
         transform: scale(1.2);
     }
     
-    .middle>.Images>.image3 {
+    .middle1>.Images>.image3 {
         border: 5px solid rgb(230, 230, 141);
         border-radius: 7px;
         background-color: #04003F;
@@ -275,18 +275,18 @@
         box-shadow: 0 0 200px #9ecaed;
     }
     
-    .middle>.Images>.image3-border {
+    .middle1>.Images>.image3-border {
         border: 2px solid #dadada;
         border-radius: 7px;
     }
     
-    .middle>.Images>.image3:focus {
+    .middle1>.Images>.image3:focus {
         outline: none;
         border: color #9ecaed;
         box-shadow: 0 0 10px #9ecaed;
     }
     
-    .middle>.Images>.image3:hover {
+    .middle1>.Images>.image3:hover {
         -ms-transform: scale(1.1);
         /* IE 9 */
         -webkit-transform: scale(1.1);
@@ -299,25 +299,138 @@
         font-family: 'Times New Roman', Times, serif;
     }
     
-    .middle>.Images>.image3>.img3text>.img3link {
+    .middle1>.Images>.image3>.img3text>.img3link {
         margin-top: 20px;
         margin-left: 50px;
     }
     
-    .middle>.Images>.image3>.img3text>.img3link:hover {
+    .middle1>.Images>.image3>.img3text>.img3link:hover {
         -ms-transform: scale(1.2);
         /* IE 9 */
         -webkit-transform: scale(1.2);
         /* Safari 3-8 */
         transform: scale(1.2);
     }
+
     
-    /* .footer {
+    .middle2{
         display: flex;
-        background-color: #FEFFFF;
+        background-color: #E5F0F1;
         margin-top: 0px;
-        height: 1650px;
+        height: 1500px;
         width: 1348px;
         margin-left: -7px;
         flex-wrap: wrap;
-    } */
+        
+    }
+
+    .middle2>.animation{
+        display: flex;
+        flex-wrap: wrap;
+   
+        position: relative;
+        width: 80%;
+        max-width: 1080px;
+        margin: auto;
+        margin-top: 900px;
+        position: relative;
+        animation-name: example;
+        animation-duration: 7s;
+        
+    }
+    @keyframes example {
+
+        0%   {background-color:#E5F0F1;; left:-20px; top:0px;}
+        25%  {background-color:#E5F0F1;; left:200px; top:0px;}
+      
+        100% {background-color:#E5F0F1; left:0px; top:0px;}
+      }
+    
+    .middle2>.animation>.m2title{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -300px;
+        color: #000;
+    }
+    .middle2>.animation>.para{
+        display: flex;
+        border: #04003F;
+        border-radius: 8px;
+        margin-top: -220px;
+        margin-right: 20px;
+        flex-wrap: wrap;
+        color: #000;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
+    }
+    .middle2>.animation>.a1{
+        display: flex;
+        border: #04003F;
+        border-radius: 8px;
+        margin-top: -50px;
+        margin-right: 20px;
+        flex-wrap: wrap;
+    } 
+    .middle2>.animation>.a2{
+        display: flex;
+        border: #04003F;
+        border-radius: 8px;
+        margin-top: -50px;
+        margin-left: 20px;
+        flex-wrap: wrap;
+      
+    } 
+    .middle2>.animation>.a3 {
+        display: flex;
+        border: #04003F;
+        border-radius: 8px;
+        margin-top: -50px;
+        margin-left: 40px;
+        flex-wrap: wrap;
+    }
+
+    .middle2>.animation>.a4{
+        display: flex;
+        border: #04003F;
+        border-radius: 8px;
+        margin-top: -250px;
+        margin-left: 870px;
+        flex-wrap: wrap;
+    } 
+
+    .middle2>.animation>.a5{
+        display: flex;
+        border: #04003F;
+        border-radius: 8px;
+        margin-top: 50px;
+        margin-left: 120px;
+        flex-wrap: wrap;
+    } 
+
+    .middle2>.animation>.a6{
+        display: flex;
+        border: #04003F;
+        border-radius: 8px;
+        margin-top: 50px;
+        margin-left:70px;
+        flex-wrap: wrap;
+    } 
+    
+    .middle2>.animation>.a7{
+        display: flex;
+        border: #04003F;
+        border-radius: 8px;
+        margin-top: -250px;
+        margin-left:750px;
+        flex-wrap: wrap;
+    } 
+
+     .footer {
+        display: flex;
+        background-color:rgb(0, 60, 60);;
+        margin-top: 0px;
+        height: 500px;
+        width: 1348px;
+        margin-left: -7px;
+        flex-wrap: wrap;
+    }
