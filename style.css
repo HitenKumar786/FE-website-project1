@@ -162,7 +162,7 @@
         background-color: #E5F0F1;
         margin-top: 380px;
         height: 100px;
-        width: 1257px;
+        width: 1470px;
         margin-left: -7px;
         flex-wrap: wrap;
         
@@ -175,7 +175,7 @@
         position: relative;
         width: 80%;
         max-width: 1080px;
- 
+        margin-left: 60px;
         margin-top: 70px;
         
     }
@@ -317,8 +317,8 @@
         background-color: #E5F0F1;
         margin-top: 0px;
         height: 1500px;
-        width: 1350px;
-        margin-left: -7px;
+        width: 1563px;
+        margin-left: -150px;
         flex-wrap: wrap;
         margin-left: -100px;
     }
